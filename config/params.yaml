@@ -1,0 +1,11 @@
+/**:
+  ros__parameters:
+    bag_filepath: "/media/haolei/My Passport/LQ/0901-2_CLI_chuan_zxing/rosbag2_2024_09_01-10_12_19_23.db3"
+    topic:
+      image: "/visual_result"
+      lidar: "/zw040201/lq_lidar_pointcloud"
+    output_path:
+      image: "/media/haolei/P5/temp/image"
+      lidar: "/media/haolei/P5/temp/lidar"
+
+    debug: true
