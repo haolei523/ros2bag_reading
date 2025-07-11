@@ -1,6 +1,5 @@
 #include "bag_reading/bag_reading.hpp"
 
-
 PlaybackNode::PlaybackNode()
 : Node("playback_node")
 {

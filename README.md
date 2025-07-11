@@ -16,6 +16,7 @@ colcon build
 
 ### 转换
 - `source install/setup.bash`
-- config文件中修改topic-lidar为录制$lidar
-- 修改output_path-lidar为输出pcd文件目录
+- config文件中修改`topic`-`lidar`为录制的`$lidar`
+- 修改`bag_filepath`为采集的rosbag
+- 修改`output_path`-`lidar`为输出pcd文件目录
 - 执行 `ros2 launch bag_reading bag_reading_launch.py`

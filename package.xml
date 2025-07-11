@@ -4,7 +4,7 @@
   <name>bag_reading</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="dpgk@todo.todo">dpgk</maintainer>
+  <maintainer email="haolei821@gmail.todo">haolei</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
