@@ -17,6 +17,7 @@ find_package(cv_bridge REQUIRED)
 find_package(CURL REQUIRED)
 
 include_directories(
+  include
   ${rclcpp_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
   ${OpenCV_INCLUDE_DIRS}

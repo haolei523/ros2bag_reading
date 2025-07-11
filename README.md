@@ -1,9 +1,13 @@
 # ros2 bag 转换 pcd
 ### 采集激光雷达数据
 ``` bash
-lidar = /lidar
+lidar = /lidar  # 改为激光雷达对应ros2话题名称
 ros2 bag record $lidar
 ```
+### 环境(若不需相机数据，可删除对应代码，无需OpenCV环境）
+- ROS2 HUMBLE
+- pcl 1.12
+- opencv
 
 ### 编译
 ``` bash
