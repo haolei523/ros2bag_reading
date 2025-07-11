@@ -30,15 +30,21 @@ PlaybackNode::PlaybackNode()
   index = 0;
 }
 
-    
+/**
+ * 转换过程，初始化ros结束后开始执行转换
+ * 1、 读取rosbag文件
+ * 2、 按顺序将每帧数据转换
+ */
 void PlaybackNode::timer_callback()
 {
   while (reader_->has_next()) {
     rosbag2_storage::SerializedBagMessageSharedPtr msg = reader_->read_next();
     
+    // 只处理rosbag中的图像或点云数据
     if (msg->topic_name == image_sub_topic || msg->topic_name == lidar_sub_topic) {
       rclcpp::SerializedMessage serialized_msg(*msg->serialized_data);
       
+      // 转换图像数据为png
       if (msg->topic_name == image_sub_topic) {
         sensor_msgs::msg::Image::SharedPtr ros_msg = std::make_shared<sensor_msgs::msg::Image>();
         camera_serialization_.deserialize_message(&serialized_msg, ros_msg.get());
@@ -55,6 +61,8 @@ void PlaybackNode::timer_callback()
         cv::imwrite(image_output_path+"/"+std::to_string(index)+".png", cv_image->image);
         index ++;
       }
+
+      // 转换lidar数据为pcd
       if (msg->topic_name == lidar_sub_topic) {
         sensor_msgs::msg::PointCloud2::SharedPtr ros_msg = std::make_shared<sensor_msgs::msg::PointCloud2>();
         lidar_serialization_.deserialize_message(&serialized_msg, ros_msg.get());
@@ -69,14 +77,9 @@ void PlaybackNode::timer_callback()
           // RCLCPP_INFO(this->get_logger(), "Ready write image: %s", image_output_path, camera_stamp);
         }
       }
-      
     }
   }
 }
-
-    
-
-    
 
 
 int main(int argc, char ** argv)
@@ -84,7 +87,7 @@ int main(int argc, char ** argv)
 
   rclcpp::init(argc, argv);
   PlaybackNode pn;
-  pn.timer_callback();
+  pn.timer_callback();  // 执行转换
   // rclcpp::spin(std::make_shared<PlaybackNode>());
   rclcpp::shutdown();
 
