@@ -1,0 +1,20 @@
+[0.016s] Invoking command in '/home/haolei/code/ros2bag_reading/build/bag_reading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/haolei/code/ros2bag_reading/build/bag_reading -- -j8 -l8
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o[0m
+[6.625s] /home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of ‘[01m[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >; S = sensor_msgs::msg::Image_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’:
+[6.625s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:120:78:[m[K   required from here
+[6.626s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:67:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktopic[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.626s]    67 | void PlaybackNode::save(rclcpp::SerializedMessage serialized_msg, [01;35m[Kstd::string topic[m[K) {
+[6.626s]       |                                                                   [01;35m[K~~~~~~~~~~~~^~~~~[m[K
+[6.626s] /home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of ‘[01m[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >; S = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’:
+[6.626s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:121:90:[m[K   required from here
+[6.626s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:67:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktopic[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.831s] /home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of ‘[01m[Kvoid PlaybackNode::write_image(S, double) [with S = sensor_msgs::msg::Image_<std::allocator<void> >][m[K’:
+[6.831s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:76:16:[m[K   required from ‘[01m[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >; S = sensor_msgs::msg::Image_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[6.831s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:120:78:[m[K   required from here
+[6.831s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:41:35:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’
+[6.831s]    41 |     std::cout << "图像编码:: " << [01;31m[Kdata[m[K->encoding.c_str() << std::endl;
+[6.832s]       |                                   [01;31m[K^~~~[m[K
+[7.557s] gmake[2]: *** [CMakeFiles/bag_reading_node.dir/build.make:76: CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o] Error 1
+[7.557s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_reading_node.dir/all] Error 2
+[7.557s] gmake: *** [Makefile:146: all] Error 2
+[7.560s] Invoked command in '/home/haolei/code/ros2bag_reading/build/bag_reading' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/haolei/code/ros2bag_reading/build/bag_reading -- -j8 -l8

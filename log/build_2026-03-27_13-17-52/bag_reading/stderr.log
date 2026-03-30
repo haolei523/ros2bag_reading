@@ -1,0 +1,50 @@
+/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of ‘[01m[Kvoid PlaybackNode::write_pointcloud(S, double) [with S = sensor_msgs::msg::Image_<std::allocator<void> >][m[K’:
+[01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:21:[m[K   required from ‘[01m[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >; S = sensor_msgs::msg::Image_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:119:76:[m[K   required from here
+[01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:51:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KfromROSMsg(sensor_msgs::msg::Image_<std::allocator<void> >&, std::__shared_ptr_access<pcl::PointCloud<pcl::PointXYZI>, __gnu_cxx::_S_atomic, false, false>::element_type&)[m[K’
+   51 |   [01;31m[Kpcl::fromROSMsg(data, *pc)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:11[m[K,
+                 from [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:568:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void pcl::fromROSMsg(const PointCloud2&, pcl::PointCloud<PointT>&)[m[K’
+  568 |   void [01;36m[KfromROSMsg[m[K(const sensor_msgs::msg::PointCloud2 &cloud, pcl::PointCloud<T> &pcl_cloud)
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:568:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:51:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kdata[m[K’ (type ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’) to type ‘[01m[Kconst PointCloud2&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::PointCloud2_<std::allocator<void> >&[m[K’}
+   51 |   pcl::fromROSMsg([01;36m[Kdata[m[K, *pc);
+      |                   [01;36m[K^~~~[m[K
+/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of ‘[01m[Kvoid PlaybackNode::write_image(S, double) [with S = sensor_msgs::msg::PointCloud2_<std::allocator<void> >][m[K’:
+[01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:69:16:[m[K   required from ‘[01m[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >; S = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:124:88:[m[K   required from here
+[01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:38:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, const char [5])[m[K’
+   38 |   cv_image = [01;31m[Kcv_bridge::toCvCopy(data, sensor_msgs::image_encodings::BGR8)[m[K;
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:12[m[K,
+                 from [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:177:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  177 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:178:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+  178 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:181:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  181 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:182:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+  182 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:204:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+  204 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:205:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+  205 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:208:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+  208 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:209:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+  209 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bag_reading_node.dir/build.make:76: CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_reading_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

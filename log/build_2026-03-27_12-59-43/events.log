@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000642] (bag_reading) JobQueued: {'identifier': 'bag_reading', 'dependencies': OrderedDict()}
+[0.000678] (bag_reading) JobStarted: {'identifier': 'bag_reading'}
+[0.012261] (bag_reading) JobProgress: {'identifier': 'bag_reading', 'progress': 'cmake'}
+[0.013294] (bag_reading) JobProgress: {'identifier': 'bag_reading', 'progress': 'build'}
+[0.014206] (bag_reading) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/haolei/code/ros2bag_reading/build/bag_reading', '--', '-j8', '-l8'], 'cwd': '/home/haolei/code/ros2bag_reading/build/bag_reading', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'haolei'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/haolei/software/cyclonedds/install/lib:/home/haolei/software/cyclonedds-cxx/install/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/haolei'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1955'), ('SYSTEMD_EXEC_PID', '2116'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2981'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'haolei'), ('JOURNAL_STREAM', '8:18555'), ('_', '/home/haolei/miniconda3/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'haolei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/haolei/software/cyclonedds/install/bin:/home/haolei/software/cyclonedds/install/include:/home/haolei/software/cyclonedds-cxx/install/include:/usr/local/cuda-11.8/bin:/home/haolei/miniconda3/bin:/home/haolei/miniconda3/condabin:/opt/ros/humble/bin:/home/haolei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/haolei:@/tmp/.ICE-unix/2088,unix/haolei:/tmp/.ICE-unix/2088'), ('INVOCATION_ID', 'ead9e1810b604c51b0d3f6056ffe0f16'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IJJVM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-044cf28600.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/haolei/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/haolei/code/ros2bag_reading/build/bag_reading'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/haolei/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/haolei/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062783] (bag_reading) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bag_reading_node\x1b[0m\n'}
+[0.088707] (bag_reading) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o\x1b[0m\n'}
+[0.100040] (-) TimerEvent: {}
+[0.200303] (-) TimerEvent: {}
+[0.300570] (-) TimerEvent: {}
+[0.400800] (-) TimerEvent: {}
+[0.501049] (-) TimerEvent: {}
+[0.601324] (-) TimerEvent: {}
+[0.701598] (-) TimerEvent: {}
+[0.801851] (-) TimerEvent: {}
+[0.902107] (-) TimerEvent: {}
+[1.002398] (-) TimerEvent: {}
+[1.102727] (-) TimerEvent: {}
+[1.203112] (-) TimerEvent: {}
+[1.303380] (-) TimerEvent: {}
+[1.403718] (-) TimerEvent: {}
+[1.503998] (-) TimerEvent: {}
+[1.604228] (-) TimerEvent: {}
+[1.704488] (-) TimerEvent: {}
+[1.804755] (-) TimerEvent: {}
+[1.905121] (-) TimerEvent: {}
+[2.005438] (-) TimerEvent: {}
+[2.105705] (-) TimerEvent: {}
+[2.205949] (-) TimerEvent: {}
+[2.306202] (-) TimerEvent: {}
+[2.406476] (-) TimerEvent: {}
+[2.506739] (-) TimerEvent: {}
+[2.606995] (-) TimerEvent: {}
+[2.707502] (-) TimerEvent: {}
+[2.807779] (-) TimerEvent: {}
+[2.908016] (-) TimerEvent: {}
+[3.008317] (-) TimerEvent: {}
+[3.108649] (-) TimerEvent: {}
+[3.208904] (-) TimerEvent: {}
+[3.309186] (-) TimerEvent: {}
+[3.409456] (-) TimerEvent: {}
+[3.509717] (-) TimerEvent: {}
+[3.609983] (-) TimerEvent: {}
+[3.710253] (-) TimerEvent: {}
+[3.810522] (-) TimerEvent: {}
+[3.910764] (-) TimerEvent: {}
+[4.011056] (-) TimerEvent: {}
+[4.111329] (-) TimerEvent: {}
+[4.211610] (-) TimerEvent: {}
+[4.311879] (-) TimerEvent: {}
+[4.412150] (-) TimerEvent: {}
+[4.512425] (-) TimerEvent: {}
+[4.612705] (-) TimerEvent: {}
+[4.712970] (-) TimerEvent: {}
+[4.813253] (-) TimerEvent: {}
+[4.913522] (-) TimerEvent: {}
+[5.013803] (-) TimerEvent: {}
+[5.114072] (-) TimerEvent: {}
+[5.214341] (-) TimerEvent: {}
+[5.314611] (-) TimerEvent: {}
+[5.414877] (-) TimerEvent: {}
+[5.515144] (-) TimerEvent: {}
+[5.615422] (-) TimerEvent: {}
+[5.715669] (-) TimerEvent: {}
+[5.815943] (-) TimerEvent: {}
+[5.916205] (-) TimerEvent: {}
+[6.016476] (-) TimerEvent: {}
+[6.116775] (-) TimerEvent: {}
+[6.217059] (-) TimerEvent: {}
+[6.317286] (-) TimerEvent: {}
+[6.416673] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PlaybackNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.416857] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:116:121:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.416931] (bag_reading) StderrLine: {'line': b'  116 |           save<sensor_msgs::msg::PointCloud2::SharedPtr, sensor_msgs::msg::PointCloud2>(serialized_msg, lidar_sub_topic)\n'}
+[6.416995] (bag_reading) StderrLine: {'line': b'      |                                                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.417056] (bag_reading) StderrLine: {'line': b'      |                                                                                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.417115] (bag_reading) StderrLine: {'line': b'  117 |         \x1b[32m\x1b[K}\x1b[m\x1b[K\n'}
+[6.417174] (bag_reading) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~\x1b[m\x1b[K                                                                                                                \n'}
+[6.417344] (-) TimerEvent: {}
+[6.517559] (-) TimerEvent: {}
+[6.617826] (-) TimerEvent: {}
+[6.646065] (bag_reading) StderrLine: {'line': b'/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >; S = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.646221] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:116:88:\x1b[m\x1b[K   required from here\n'}
+[6.646291] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:45:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KtoCvCopy(sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, const char [5])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.646355] (bag_reading) StderrLine: {'line': b'   45 |     cv_image = \x1b[01;31m\x1b[Kcv_bridge::toCvCopy(camera, sensor_msgs::image_encodings::BGR8)\x1b[m\x1b[K;\n'}
+[6.646415] (bag_reading) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.646473] (bag_reading) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:12\x1b[m\x1b[K,\n'}
+[6.646531] (bag_reading) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1\x1b[m\x1b[K:\n'}
+[6.646604] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:177:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.646665] (bag_reading) StderrLine: {'line': b'  177 | CV_BRIDGE_EXPORT CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[6.646723] (bag_reading) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.646781] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:178:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.646851] (bag_reading) StderrLine: {'line': b'  178 |   \x1b[01;36m\x1b[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source\x1b[m\x1b[K,\n'}
+[6.646910] (bag_reading) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.646968] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:181:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.647027] (bag_reading) StderrLine: {'line': b'  181 | CV_BRIDGE_EXPORT CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[6.647084] (bag_reading) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.647141] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:182:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.647208] (bag_reading) StderrLine: {'line': b'  182 |   \x1b[01;36m\x1b[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source\x1b[m\x1b[K,\n'}
+[6.647266] (bag_reading) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.647323] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:204:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.647385] (bag_reading) StderrLine: {'line': b'  204 | CV_BRIDGE_EXPORT CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[6.647441] (bag_reading) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.647500] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:205:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Image&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.647574] (bag_reading) StderrLine: {'line': b'  205 |   \x1b[01;36m\x1b[Kconst sensor_msgs::msg::Image & source\x1b[m\x1b[K,\n'}
+[6.647635] (bag_reading) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.647691] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:208:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.647747] (bag_reading) StderrLine: {'line': b'  208 | CV_BRIDGE_EXPORT CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[6.647802] (bag_reading) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.647856] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:209:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst CompressedImage&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.647918] (bag_reading) StderrLine: {'line': b'  209 |   \x1b[01;36m\x1b[Kconst sensor_msgs::msg::CompressedImage & source\x1b[m\x1b[K,\n'}
+[6.647973] (bag_reading) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.717954] (-) TimerEvent: {}
+[6.818217] (-) TimerEvent: {}
+[6.918483] (-) TimerEvent: {}
+[7.018727] (-) TimerEvent: {}
+[7.118991] (-) TimerEvent: {}
+[7.219255] (-) TimerEvent: {}
+[7.319516] (-) TimerEvent: {}
+[7.419753] (-) TimerEvent: {}
+[7.520035] (-) TimerEvent: {}
+[7.620331] (-) TimerEvent: {}
+[7.720607] (-) TimerEvent: {}
+[7.820881] (-) TimerEvent: {}
+[7.921170] (-) TimerEvent: {}
+[8.021485] (-) TimerEvent: {}
+[8.121772] (-) TimerEvent: {}
+[8.164528] (bag_reading) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bag_reading_node.dir/build.make:76: CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o] Error 1\n'}
+[8.164876] (bag_reading) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_reading_node.dir/all] Error 2\n'}
+[8.165153] (bag_reading) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.167210] (bag_reading) CommandEnded: {'returncode': 2}
+[8.211362] (bag_reading) JobEnded: {'identifier': 'bag_reading', 'rc': 2}
+[8.221926] (-) EventReactorShutdown: {}

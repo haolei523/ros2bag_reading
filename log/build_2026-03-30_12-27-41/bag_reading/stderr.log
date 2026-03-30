@@ -1,0 +1,8 @@
+In file included from [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1[m[K:
+[01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image_encodings.h: No such file or directory
+   10 | #include [01;31m[K<sensor_msgs/image_encodings.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bag_reading_node.dir/build.make:76: CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_reading_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,123 @@
+[0.203s] DEBUG:colcon:Command line arguments: ['/home/haolei/miniconda3/bin/colcon', 'build']
+[0.203s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b0714143100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b071427b6a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b071427b6a0>>)
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/haolei/code/ros2bag_reading'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src' with type 'ros.ament_cmake' and name 'bag_reading'
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'bag_reading' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'bag_reading' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/haolei/code/ros2bag_reading/build/bag_reading', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/haolei/code/ros2bag_reading/install/bag_reading', 'merge_install': False, 'path': '/home/haolei/code/ros2bag_reading/src', 'symlink_install': False, 'test_result_base': None}
+[0.297s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/haolei/code/ros2bag_reading/src' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/haolei/code/ros2bag_reading/src'
+[0.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haolei/code/ros2bag_reading/build/bag_reading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/haolei/code/ros2bag_reading/build/bag_reading -- -j8 -l8
+[9.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haolei/code/ros2bag_reading/build/bag_reading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/haolei/code/ros2bag_reading/build/bag_reading -- -j8 -l8
+[9.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haolei/code/ros2bag_reading/build/bag_reading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/haolei/code/ros2bag_reading/build/bag_reading
+[9.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bag_reading)
+[9.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haolei/code/ros2bag_reading/build/bag_reading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/haolei/code/ros2bag_reading/build/bag_reading
+[9.847s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading' for CMake module files
+[9.847s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading' for CMake config files
+[9.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('bag_reading', 'cmake_prefix_path')
+[9.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/hook/cmake_prefix_path.ps1'
+[9.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/hook/cmake_prefix_path.dsv'
+[9.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/hook/cmake_prefix_path.sh'
+[9.851s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/lib'
+[9.852s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/bin'
+[9.852s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/lib/pkgconfig/bag_reading.pc'
+[9.854s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/lib/python3.9/site-packages'
+[9.854s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/bin'
+[9.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.ps1'
+[9.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.dsv'
+[9.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.sh'
+[9.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.bash'
+[9.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.zsh'
+[9.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haolei/code/ros2bag_reading/install/bag_reading/share/colcon-core/packages/bag_reading)
+[9.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bag_reading)
+[9.893s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading' for CMake module files
+[9.894s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading' for CMake config files
+[9.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('bag_reading', 'cmake_prefix_path')
+[9.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/hook/cmake_prefix_path.ps1'
+[9.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/hook/cmake_prefix_path.dsv'
+[9.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/hook/cmake_prefix_path.sh'
+[9.896s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/lib'
+[9.896s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/bin'
+[9.896s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/lib/pkgconfig/bag_reading.pc'
+[9.897s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/lib/python3.9/site-packages'
+[9.897s] Level 1:colcon.colcon_core.environment:checking '/home/haolei/code/ros2bag_reading/install/bag_reading/bin'
+[9.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.ps1'
+[9.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.dsv'
+[9.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.sh'
+[9.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.bash'
+[9.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.zsh'
+[9.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haolei/code/ros2bag_reading/install/bag_reading/share/colcon-core/packages/bag_reading)
+[9.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.901s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.903s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[9.903s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.903s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.904s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[9.923s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.923s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haolei/code/ros2bag_reading/install/local_setup.ps1'
+[9.925s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/haolei/code/ros2bag_reading/install/_local_setup_util_ps1.py'
+[9.926s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haolei/code/ros2bag_reading/install/setup.ps1'
+[9.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haolei/code/ros2bag_reading/install/local_setup.sh'
+[9.928s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/haolei/code/ros2bag_reading/install/_local_setup_util_sh.py'
+[9.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haolei/code/ros2bag_reading/install/setup.sh'
+[9.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haolei/code/ros2bag_reading/install/local_setup.bash'
+[9.931s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haolei/code/ros2bag_reading/install/setup.bash'
+[9.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haolei/code/ros2bag_reading/install/local_setup.zsh'
+[9.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haolei/code/ros2bag_reading/install/setup.zsh'

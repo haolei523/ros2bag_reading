@@ -1,0 +1,69 @@
+[0.013s] Invoking command in '/home/haolei/code/ros2bag_reading/build/bag_reading': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/haolei/code/ros2bag_reading/build/bag_reading -- -j8 -l8
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target bag_reading_node[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o[0m
+[6.255s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::write_image(S)[m[K’:
+[6.256s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:41:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kstamp[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrcmp[m[K’?
+[6.256s]    41 |     std::cout << "Ready write image: " << image_output_path << "/" << [01;31m[Kstamp[m[K << ".png" << std::endl;
+[6.256s]       |                                                                       [01;31m[K^~~~~[m[K
+[6.256s]       |                                                                       [32m[Kstrcmp[m[K
+[6.263s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:45:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstamp[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrcmp[m[K’?
+[6.263s]    45 |   cv::imwrite(image_output_path+"/"+std::to_string([01;31m[Kstamp[m[K)+".png", cv_image->image);
+[6.263s]       |                                                    [01;31m[K^~~~~[m[K
+[6.263s]       |                                                    [32m[Kstrcmp[m[K
+[6.280s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::write_pointcloud(S)[m[K’:
+[6.280s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:52:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kstamp[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrcmp[m[K’?
+[6.280s]    52 |   pcl::io::savePCDFile(lidar_output_path+"/"+std::to_string([01;31m[Kstamp[m[K)+".pcd", *pc);
+[6.280s]       |                                                             [01;31m[K^~~~~[m[K
+[6.280s]       |                                                             [32m[Kstrcmp[m[K
+[6.511s] /home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of ‘[01m[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >; S = sensor_msgs::msg::Image_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’:
+[6.511s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:119:76:[m[K   required from here
+[6.512s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:69:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPlaybackNode::write_image(sensor_msgs::msg::Image_<std::allocator<void> >&, double&)[m[K’
+[6.512s]    69 |     [01;31m[Kwrite_image(data, stamp)[m[K;
+[6.512s]       |     [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.512s] In file included from [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1[m[K:
+[6.512s] [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:30:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S> void PlaybackNode::write_image(S)[m[K’
+[6.512s]    30 |   void [01;36m[Kwrite_image[m[K(S data);
+[6.512s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[6.512s] [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:30:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.512s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:69:16:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[6.512s]    69 |     [01;36m[Kwrite_image(data, stamp)[m[K;
+[6.512s]       |     [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.512s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPlaybackNode::write_pointcloud(sensor_msgs::msg::Image_<std::allocator<void> >&, double&)[m[K’
+[6.513s]    72 |     [01;31m[Kwrite_pointcloud(data, stamp)[m[K;
+[6.513s]       |     [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.513s] In file included from [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1[m[K:
+[6.513s] [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S> void PlaybackNode::write_pointcloud(S)[m[K’
+[6.513s]    32 |   void [01;36m[Kwrite_pointcloud[m[K(S data);
+[6.513s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.513s] [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:32:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.513s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[6.513s]    72 |     [01;36m[Kwrite_pointcloud(data, stamp)[m[K;
+[6.513s]       |     [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.513s] /home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of ‘[01m[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >; S = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’:
+[6.513s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:124:88:[m[K   required from here
+[6.513s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:69:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPlaybackNode::write_image(sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, double&)[m[K’
+[6.513s]    69 |     [01;31m[Kwrite_image(data, stamp)[m[K;
+[6.513s]       |     [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.513s] In file included from [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1[m[K:
+[6.513s] [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:30:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S> void PlaybackNode::write_image(S)[m[K’
+[6.514s]    30 |   void [01;36m[Kwrite_image[m[K(S data);
+[6.514s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[6.514s] [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:30:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.514s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:69:16:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[6.514s]    69 |     [01;36m[Kwrite_image(data, stamp)[m[K;
+[6.514s]       |     [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.514s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPlaybackNode::write_pointcloud(sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, double&)[m[K’
+[6.514s]    72 |     [01;31m[Kwrite_pointcloud(data, stamp)[m[K;
+[6.514s]       |     [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.514s] In file included from [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1[m[K:
+[6.514s] [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S> void PlaybackNode::write_pointcloud(S)[m[K’
+[6.514s]    32 |   void [01;36m[Kwrite_pointcloud[m[K(S data);
+[6.514s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.514s] [01m[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:32:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.514s] [01m[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[6.514s]    72 |     [01;36m[Kwrite_pointcloud(data, stamp)[m[K;
+[6.514s]       |     [01;36m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[7.355s] gmake[2]: *** [CMakeFiles/bag_reading_node.dir/build.make:76: CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o] Error 1
+[7.355s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_reading_node.dir/all] Error 2
+[7.355s] gmake: *** [Makefile:146: all] Error 2
+[7.357s] Invoked command in '/home/haolei/code/ros2bag_reading/build/bag_reading' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/haolei/code/ros2bag_reading/build/bag_reading -- -j8 -l8

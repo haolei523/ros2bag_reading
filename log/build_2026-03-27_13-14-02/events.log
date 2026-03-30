@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000213] (bag_reading) JobQueued: {'identifier': 'bag_reading', 'dependencies': OrderedDict()}
+[0.000243] (bag_reading) JobStarted: {'identifier': 'bag_reading'}
+[0.009597] (bag_reading) JobProgress: {'identifier': 'bag_reading', 'progress': 'cmake'}
+[0.010864] (bag_reading) JobProgress: {'identifier': 'bag_reading', 'progress': 'build'}
+[0.012116] (bag_reading) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/haolei/code/ros2bag_reading/build/bag_reading', '--', '-j8', '-l8'], 'cwd': '/home/haolei/code/ros2bag_reading/build/bag_reading', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'haolei'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/haolei/software/cyclonedds/install/lib:/home/haolei/software/cyclonedds-cxx/install/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/haolei'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1955'), ('SYSTEMD_EXEC_PID', '2116'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2981'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'haolei'), ('JOURNAL_STREAM', '8:18555'), ('_', '/home/haolei/miniconda3/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'haolei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/haolei/software/cyclonedds/install/bin:/home/haolei/software/cyclonedds/install/include:/home/haolei/software/cyclonedds-cxx/install/include:/usr/local/cuda-11.8/bin:/home/haolei/miniconda3/bin:/home/haolei/miniconda3/condabin:/opt/ros/humble/bin:/home/haolei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/haolei:@/tmp/.ICE-unix/2088,unix/haolei:/tmp/.ICE-unix/2088'), ('INVOCATION_ID', 'ead9e1810b604c51b0d3f6056ffe0f16'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IJJVM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-044cf28600.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/haolei/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/haolei/code/ros2bag_reading/build/bag_reading'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/haolei/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/haolei/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060327] (bag_reading) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bag_reading_node\x1b[0m\n'}
+[0.085369] (bag_reading) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o\x1b[0m\n'}
+[0.099330] (-) TimerEvent: {}
+[0.199615] (-) TimerEvent: {}
+[0.299881] (-) TimerEvent: {}
+[0.400136] (-) TimerEvent: {}
+[0.500435] (-) TimerEvent: {}
+[0.600766] (-) TimerEvent: {}
+[0.701062] (-) TimerEvent: {}
+[0.801354] (-) TimerEvent: {}
+[0.901619] (-) TimerEvent: {}
+[1.001903] (-) TimerEvent: {}
+[1.102178] (-) TimerEvent: {}
+[1.202447] (-) TimerEvent: {}
+[1.302710] (-) TimerEvent: {}
+[1.402970] (-) TimerEvent: {}
+[1.503309] (-) TimerEvent: {}
+[1.603588] (-) TimerEvent: {}
+[1.703855] (-) TimerEvent: {}
+[1.804125] (-) TimerEvent: {}
+[1.904408] (-) TimerEvent: {}
+[2.004696] (-) TimerEvent: {}
+[2.104988] (-) TimerEvent: {}
+[2.205272] (-) TimerEvent: {}
+[2.305551] (-) TimerEvent: {}
+[2.405835] (-) TimerEvent: {}
+[2.506125] (-) TimerEvent: {}
+[2.606414] (-) TimerEvent: {}
+[2.706707] (-) TimerEvent: {}
+[2.807001] (-) TimerEvent: {}
+[2.907301] (-) TimerEvent: {}
+[3.007587] (-) TimerEvent: {}
+[3.107873] (-) TimerEvent: {}
+[3.208124] (-) TimerEvent: {}
+[3.308401] (-) TimerEvent: {}
+[3.408687] (-) TimerEvent: {}
+[3.508984] (-) TimerEvent: {}
+[3.609291] (-) TimerEvent: {}
+[3.709579] (-) TimerEvent: {}
+[3.809869] (-) TimerEvent: {}
+[3.910138] (-) TimerEvent: {}
+[4.010440] (-) TimerEvent: {}
+[4.110734] (-) TimerEvent: {}
+[4.211031] (-) TimerEvent: {}
+[4.311339] (-) TimerEvent: {}
+[4.411632] (-) TimerEvent: {}
+[4.511926] (-) TimerEvent: {}
+[4.612231] (-) TimerEvent: {}
+[4.712523] (-) TimerEvent: {}
+[4.812818] (-) TimerEvent: {}
+[4.913112] (-) TimerEvent: {}
+[5.013402] (-) TimerEvent: {}
+[5.113719] (-) TimerEvent: {}
+[5.213985] (-) TimerEvent: {}
+[5.314227] (-) TimerEvent: {}
+[5.414508] (-) TimerEvent: {}
+[5.514784] (-) TimerEvent: {}
+[5.615055] (-) TimerEvent: {}
+[5.715301] (-) TimerEvent: {}
+[5.815581] (-) TimerEvent: {}
+[5.915858] (-) TimerEvent: {}
+[6.016129] (-) TimerEvent: {}
+[6.116378] (-) TimerEvent: {}
+[6.216702] (-) TimerEvent: {}
+[6.316934] (-) TimerEvent: {}
+[6.405322] (bag_reading) StderrLine: {'line': b'/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >; S = sensor_msgs::msg::Image_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.405659] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:122:76:\x1b[m\x1b[K   required from here\n'}
+[6.405796] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPlaybackNode::write_image(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.405926] (bag_reading) StderrLine: {'line': b'   72 |     \x1b[01;31m\x1b[Kwrite_image(ros_msg)\x1b[m\x1b[K;\n'}
+[6.406120] (bag_reading) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.406246] (bag_reading) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1\x1b[m\x1b[K:\n'}
+[6.406363] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:30:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class SP, class S> void PlaybackNode::write_image(SP)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.406477] (bag_reading) StderrLine: {'line': b'   30 |   void \x1b[01;36m\x1b[Kwrite_image\x1b[m\x1b[K(SP data);\n'}
+[6.406584] (bag_reading) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.406694] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:30:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.406804] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.406919] (bag_reading) StderrLine: {'line': b'   72 |     \x1b[01;36m\x1b[Kwrite_image(ros_msg)\x1b[m\x1b[K;\n'}
+[6.407033] (bag_reading) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.407157] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:75:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPlaybackNode::write_pointcloud(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.407278] (bag_reading) StderrLine: {'line': b'   75 |     \x1b[01;31m\x1b[Kwrite_pointcloud(ros_msg)\x1b[m\x1b[K;\n'}
+[6.407394] (bag_reading) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.407507] (bag_reading) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1\x1b[m\x1b[K:\n'}
+[6.407623] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class SP, class S> void PlaybackNode::write_pointcloud(SP)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.407740] (bag_reading) StderrLine: {'line': b'   32 |   void \x1b[01;36m\x1b[Kwrite_pointcloud\x1b[m\x1b[K(SP data);\n'}
+[6.407854] (bag_reading) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.407975] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.408097] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:75:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.408218] (bag_reading) StderrLine: {'line': b'   75 |     \x1b[01;36m\x1b[Kwrite_pointcloud(ros_msg)\x1b[m\x1b[K;\n'}
+[6.408333] (bag_reading) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.408449] (bag_reading) StderrLine: {'line': b'/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid PlaybackNode::save(rclcpp::SerializedMessage, std::string) [with SP = std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >; S = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.408569] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:127:88:\x1b[m\x1b[K   required from here\n'}
+[6.408682] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPlaybackNode::write_image(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.408806] (bag_reading) StderrLine: {'line': b'   72 |     \x1b[01;31m\x1b[Kwrite_image(ros_msg)\x1b[m\x1b[K;\n'}
+[6.408918] (bag_reading) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.409033] (bag_reading) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1\x1b[m\x1b[K:\n'}
+[6.409157] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:30:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class SP, class S> void PlaybackNode::write_image(SP)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.409283] (bag_reading) StderrLine: {'line': b'   30 |   void \x1b[01;36m\x1b[Kwrite_image\x1b[m\x1b[K(SP data);\n'}
+[6.409394] (bag_reading) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.409504] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:30:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.409623] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:72:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.409735] (bag_reading) StderrLine: {'line': b'   72 |     \x1b[01;36m\x1b[Kwrite_image(ros_msg)\x1b[m\x1b[K;\n'}
+[6.409845] (bag_reading) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.409957] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:75:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPlaybackNode::write_pointcloud(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.410074] (bag_reading) StderrLine: {'line': b'   75 |     \x1b[01;31m\x1b[Kwrite_pointcloud(ros_msg)\x1b[m\x1b[K;\n'}
+[6.410194] (bag_reading) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.410305] (bag_reading) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:1\x1b[m\x1b[K:\n'}
+[6.410422] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class SP, class S> void PlaybackNode::write_pointcloud(SP)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.410534] (bag_reading) StderrLine: {'line': b'   32 |   void \x1b[01;36m\x1b[Kwrite_pointcloud\x1b[m\x1b[K(SP data);\n'}
+[6.410640] (bag_reading) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.410747] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/include/bag_reading/bag_reading.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.410856] (bag_reading) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haolei/code/ros2bag_reading/src/src/bag_reader.cpp:75:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.410966] (bag_reading) StderrLine: {'line': b'   75 |     \x1b[01;36m\x1b[Kwrite_pointcloud(ros_msg)\x1b[m\x1b[K;\n'}
+[6.411079] (bag_reading) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.417022] (-) TimerEvent: {}
+[6.517311] (-) TimerEvent: {}
+[6.617580] (-) TimerEvent: {}
+[6.717850] (-) TimerEvent: {}
+[6.818121] (-) TimerEvent: {}
+[6.918384] (-) TimerEvent: {}
+[7.018657] (-) TimerEvent: {}
+[7.118923] (-) TimerEvent: {}
+[7.219174] (-) TimerEvent: {}
+[7.259878] (bag_reading) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bag_reading_node.dir/build.make:76: CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o] Error 1\n'}
+[7.260148] (bag_reading) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_reading_node.dir/all] Error 2\n'}
+[7.260544] (bag_reading) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.262402] (bag_reading) CommandEnded: {'returncode': 2}
+[7.307440] (bag_reading) JobEnded: {'identifier': 'bag_reading', 'rc': 2}
+[7.317988] (-) EventReactorShutdown: {}

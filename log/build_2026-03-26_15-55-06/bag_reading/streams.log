@@ -1,0 +1,183 @@
+[0.016s] Invoking command in '/home/haolei/code/ros2bag_reading/build/bag_reading': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/haolei/code/ros2bag_reading/src -DCMAKE_INSTALL_PREFIX=/home/haolei/code/ros2bag_reading/install/bag_reading
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.213s] -- The CXX compiler identification is GNU 11.4.0
+[0.224s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.386s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.394s] -- Detecting CXX compile features
+[0.395s] -- Detecting CXX compile features - done
+[0.401s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.791s] -- Found Python3: /home/haolei/miniconda3/bin/python3 (found version "3.9.19") found components: Interpreter 
+[0.896s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.948s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.953s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.964s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.979s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.051s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.055s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.085s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.100s] -- Looking for pthread.h
+[1.172s] -- Looking for pthread.h - found
+[1.172s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.244s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.245s] -- Found Threads: TRUE  
+[1.307s] -- Found rosbag2_transport: 0.15.12 (/opt/ros/humble/share/rosbag2_transport/cmake)
+[1.394s] -- Checking for module 'eigen3'
+[1.411s] --   Found eigen3, version 3.4.0
+[1.445s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.445s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.467s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.482s] -- Checking for module 'flann'
+[1.496s] --   Found flann, version 1.9.1
+[1.541s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.541s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.583s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.588s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.738s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.738s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.740s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.750s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.768s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.792s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.886s] -- Found X11: /usr/include   
+[1.886s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.960s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.960s] -- Looking for gethostbyname
+[2.026s] -- Looking for gethostbyname - found
+[2.026s] -- Looking for connect
+[2.091s] -- Looking for connect - found
+[2.091s] -- Looking for remove
+[2.158s] -- Looking for remove - found
+[2.158s] -- Looking for shmat
+[2.224s] -- Looking for shmat - found
+[2.224s] -- Looking for IceConnectionNumber in ICE
+[2.291s] -- Looking for IceConnectionNumber in ICE - found
+[2.378s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.380s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.382s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.384s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.395s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.400s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.405s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.412s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.496s] -- Checking for module 'libusb-1.0'
+[2.512s] --   Found libusb-1.0, version 1.0.25
+[2.552s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.553s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.553s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.611s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.611s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.611s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.766s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.772s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.778s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.934s] -- Found Qhull version 8.0.2
+[3.087s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.233s] -- looking for PCL_COMMON
+[3.243s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.244s] -- looking for PCL_KDTREE
+[3.245s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.245s] -- looking for PCL_OCTREE
+[3.246s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.246s] -- looking for PCL_SEARCH
+[3.247s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.247s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.247s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.248s] -- looking for PCL_FILTERS
+[3.249s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.249s] -- looking for PCL_2D
+[3.249s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.249s] -- looking for PCL_GEOMETRY
+[3.250s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.250s] -- looking for PCL_IO
+[3.251s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.251s] -- looking for PCL_FEATURES
+[3.251s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.252s] -- looking for PCL_ML
+[3.252s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.253s] -- looking for PCL_SEGMENTATION
+[3.253s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.254s] -- looking for PCL_VISUALIZATION
+[3.255s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.255s] -- looking for PCL_SURFACE
+[3.256s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.256s] -- looking for PCL_REGISTRATION
+[3.257s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.257s] -- looking for PCL_KEYPOINTS
+[3.258s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.258s] -- looking for PCL_TRACKING
+[3.259s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.259s] -- looking for PCL_RECOGNITION
+[3.260s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.260s] -- looking for PCL_STEREO
+[3.261s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.261s] -- looking for PCL_APPS
+[3.262s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.262s] -- looking for PCL_IN_HAND_SCANNER
+[3.263s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.263s] -- looking for PCL_MODELER
+[3.263s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.263s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.264s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.264s] -- looking for PCL_OUTOFCORE
+[3.264s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.265s] -- looking for PCL_PEOPLE
+[3.265s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.266s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.276s] -- Found OpenCV: /usr (found version "4.5.4") 
+[3.279s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.319s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.352s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.442s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.529s] -- Configuring done
+[3.576s] [33mCMake Warning at CMakeLists.txt:28 (add_executable):
+[3.576s]   Cannot generate a safe runtime search path for target bag_reading_node
+[3.577s]   because files in some directories may conflict with libraries in implicit
+[3.577s]   directories:
+[3.577s] 
+[3.577s]     runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[3.577s]       /home/haolei/miniconda3/lib
+[3.577s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[3.577s]       /home/haolei/miniconda3/lib
+[3.577s] 
+[3.577s]   Some of these libraries may not be found correctly.
+[3.577s] 
+[3.578s] [0m
+[3.578s] -- Generating done
+[3.581s] -- Build files have been written to: /home/haolei/code/ros2bag_reading/build/bag_reading
+[3.599s] Invoked command in '/home/haolei/code/ros2bag_reading/build/bag_reading' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/haolei/code/ros2bag_reading/src -DCMAKE_INSTALL_PREFIX=/home/haolei/code/ros2bag_reading/install/bag_reading
+[3.602s] Invoking command in '/home/haolei/code/ros2bag_reading/build/bag_reading': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/haolei/code/ros2bag_reading/build/bag_reading -- -j8 -l8
+[3.652s] [ 50%] [32mBuilding CXX object CMakeFiles/bag_reading_node.dir/src/bag_reader.cpp.o[0m
+[12.480s] [100%] [32m[1mLinking CXX executable bag_reading_node[0m
+[13.450s] [100%] Built target bag_reading_node
+[13.462s] Invoked command in '/home/haolei/code/ros2bag_reading/build/bag_reading' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/haolei/code/ros2bag_reading/build/bag_reading -- -j8 -l8
+[13.507s] Invoking command in '/home/haolei/code/ros2bag_reading/build/bag_reading': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/haolei/code/ros2bag_reading/build/bag_reading
+[13.513s] -- Install configuration: ""
+[13.513s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/lib/bag_reading/bag_reading_node
+[13.514s] -- Set runtime path of "/home/haolei/code/ros2bag_reading/install/bag_reading/lib/bag_reading/bag_reading_node" to ""
+[13.514s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading//launch
+[13.514s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading//launch/bag_reading_launch.py
+[13.514s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading//config
+[13.514s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading//config/params.yaml
+[13.514s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/ament_index/resource_index/package_run_dependencies/bag_reading
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/ament_index/resource_index/parent_prefix_path/bag_reading
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/environment/ament_prefix_path.sh
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/environment/ament_prefix_path.dsv
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/environment/path.sh
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/environment/path.dsv
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/local_setup.bash
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/local_setup.sh
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/local_setup.zsh
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/local_setup.dsv
+[13.515s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.dsv
+[13.516s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/ament_index/resource_index/packages/bag_reading
+[13.516s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/cmake/bag_readingConfig.cmake
+[13.516s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/cmake/bag_readingConfig-version.cmake
+[13.516s] -- Installing: /home/haolei/code/ros2bag_reading/install/bag_reading/share/bag_reading/package.xml
+[13.518s] Invoked command in '/home/haolei/code/ros2bag_reading/build/bag_reading' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/haolei/code/ros2bag_reading/build/bag_reading
